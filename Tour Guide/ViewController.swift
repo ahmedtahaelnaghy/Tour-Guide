@@ -82,9 +82,12 @@ class ViewController: UIViewController {
             
         } else {
             
+            
+//            view.overrideUserInterfaceStyle = .dark
+
             sender.backgroundColor = .white
             self.view.backgroundColor = .black
-            
+
             placeNameLbl.textColor = .white
             DescriptionLbl.textColor = .white
             
