@@ -76,10 +76,14 @@ class ViewController: UIViewController {
             
             view.overrideUserInterfaceStyle = .light
             
+            UIApplication.shared.statusBarStyle = .darkContent
+
         } else {
             
             view.overrideUserInterfaceStyle = .dark
             
+            UIApplication.shared.statusBarStyle = .lightContent
+
         }
         
     }
